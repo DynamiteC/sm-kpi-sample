@@ -3,7 +3,7 @@ import random
 import datetime
 
 # Define the number of rows of data to generate
-NUM_ROWS = 365
+NUM_ROWS = 730
 
 # Define the header row for the CSV file
 header = ['date', 'impressions', 'reach', 'clicks', 'click_through_rate', 'mentions_in_dm', 'mentions_in_groups',
@@ -13,19 +13,19 @@ header = ['date', 'impressions', 'reach', 'clicks', 'click_through_rate', 'menti
 username = 'my_instagram_username'
 
 # Define the range of impressions for the Instagram account
-impressions_range = (5000, 50000)
+impressions_range = (5000, 500000)
 
 # Define the range of reach for the Instagram account
-reach_range = (3000, 30000)
+reach_range = (3000, 300000)
 
 # Define the range of clicks for the Instagram account
-clicks_range = (100, 1000)
+clicks_range = (100, 10000)
 
 # Define the range of mentions in DM for the Instagram account
-mentions_in_dm_range = (50, 500)
+mentions_in_dm_range = (50, 5000)
 
 # Define the range of mentions in groups for the Instagram account
-mentions_in_groups_range = (100, 1000)
+mentions_in_groups_range = (100, 10000)
 
 # Define the distribution of audience age for the Instagram account
 audience_age_distribution = {'13-17': 0.1, '18-24': 0.3, '25-34': 0.4, '35-44': 0.15, '45+': 0.05}

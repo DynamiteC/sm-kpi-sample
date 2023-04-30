@@ -59,7 +59,7 @@ for i in range(NUM_ROWS):
     conversion_rate = num_conversions / num_clicks
 
     # Generate the age of the audience based on historical data
-    age = int(norm.rvs(*age_range))
+    age = random.randint(*age_range)
 
     # Generate the gender of the audience based on historical data
     gender = random.choices(list(gender_distribution.keys()), weights=list(gender_distribution.values()))[0]
